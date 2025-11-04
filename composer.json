@@ -1,0 +1,24 @@
+{
+    "name": "sociallivemaps/laravel-ecommerce-connector",
+    "description": "Solimap Ecommerce API integration (products, bundles, passes)",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Solimap\\Ecommerce\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Solimap\\Ecommerce\\EcommerceServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=8.2",
+        "illuminate/support": "^11.0|^12.0",
+        "illuminate/http": "^11.0|^12.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
