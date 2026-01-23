@@ -1,6 +1,7 @@
 {
     "name": "sociallivemaps/laravel-ecommerce-connector",
     "description": "Solimap Ecommerce API integration (products, bundles, passes)",
+    "license": "MIT",
     "type": "library",
     "autoload": {
         "psr-4": {
